@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		94B04576293B85700092D740 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B04575293B85700092D740 /* AppDelegate.swift */; };
 		94B04578293B85700092D740 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B04577293B85700092D740 /* SceneDelegate.swift */; };
-		94B0457A293B85700092D740 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B04579293B85700092D740 /* ViewController.swift */; };
 		94B0457D293B85700092D740 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B0457B293B85700092D740 /* Main.storyboard */; };
 		94B0457F293B85710092D740 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94B0457E293B85710092D740 /* Assets.xcassets */; };
 		94B04582293B85710092D740 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B04580293B85710092D740 /* LaunchScreen.storyboard */; };
+		94B045AE2941DF1A0092D740 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B045AD2941DF1A0092D740 /* Shapes.swift */; };
+		94B045B02941DF290092D740 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B045AF2941DF290092D740 /* Cards.swift */; };
+		94B045B72941E4A40092D740 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B045B62941E4A40092D740 /* Card.swift */; };
+		94B045B92941E6AC0092D740 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B045B82941E6AC0092D740 /* Game.swift */; };
+		94B045BC29431A420092D740 /* CardViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B045BB29431A420092D740 /* CardViewFactory.swift */; };
+		94B63F3F29547A280087809C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B63F3E29547A280087809C /* TableViewCell.swift */; };
+		94B63F412954A4F30087809C /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B63F402954A4F30087809C /* SettingsTableViewController.swift */; };
+		94BD36E629470CAD0080AFC5 /* BoardGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BD36E529470CAD0080AFC5 /* BoardGameController.swift */; };
+		94BD36E9294713420080AFC5 /* LaunchScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BD36E7294713420080AFC5 /* LaunchScreenController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		94B04572293B85700092D740 /* Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B04575293B85700092D740 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94B04577293B85700092D740 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		94B04579293B85700092D740 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		94B0457C293B85700092D740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94B0457E293B85710092D740 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94B04581293B85710092D740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94B04583293B85710092D740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B04589293B85D70092D740 /* ViewExperiments.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ViewExperiments.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		94B045AA293DFFC50092D740 /* BezierExperiments.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BezierExperiments.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		94B045AB293F9A7C0092D740 /* WorkPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = WorkPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		94B045AD2941DF1A0092D740 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		94B045AF2941DF290092D740 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+		94B045B62941E4A40092D740 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		94B045B82941E6AC0092D740 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		94B045BB29431A420092D740 /* CardViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewFactory.swift; sourceTree = "<group>"; };
+		94B63F3E29547A280087809C /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		94B63F402954A4F30087809C /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		94B63F422955F2200087809C /* Test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Test.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		94BD36E529470CAD0080AFC5 /* BoardGameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardGameController.swift; sourceTree = "<group>"; };
+		94BD36E8294713420080AFC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = Base.lproj/LaunchScreenController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +60,10 @@
 		94B04569293B85700092D740 = {
 			isa = PBXGroup;
 			children = (
+				94B63F3D295479FA0087809C /* Cells */,
+				94B045BA29431A220092D740 /* Helpers */,
+				94B045B52941E1670092D740 /* Model */,
+				94B045AC2941DEFF0092D740 /* View */,
 				94B04574293B85700092D740 /* Cards */,
 				94B04573293B85700092D740 /* Products */,
 			);
@@ -56,15 +80,63 @@
 		94B04574293B85700092D740 /* Cards */ = {
 			isa = PBXGroup;
 			children = (
+				94BD36E529470CAD0080AFC5 /* BoardGameController.swift */,
 				94B04575293B85700092D740 /* AppDelegate.swift */,
 				94B04577293B85700092D740 /* SceneDelegate.swift */,
-				94B04579293B85700092D740 /* ViewController.swift */,
-				94B0457B293B85700092D740 /* Main.storyboard */,
 				94B0457E293B85710092D740 /* Assets.xcassets */,
-				94B04580293B85710092D740 /* LaunchScreen.storyboard */,
 				94B04583293B85710092D740 /* Info.plist */,
+				94B045AB293F9A7C0092D740 /* WorkPlayground.playground */,
+				94B04589293B85D70092D740 /* ViewExperiments.playground */,
+				94B045AA293DFFC50092D740 /* BezierExperiments.playground */,
+				94B63F422955F2200087809C /* Test.playground */,
 			);
 			path = Cards;
+			sourceTree = "<group>";
+		};
+		94B045AC2941DEFF0092D740 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				94B045B12941E0720092D740 /* Storyboards */,
+				94BD36E7294713420080AFC5 /* LaunchScreenController.swift */,
+				94B63F402954A4F30087809C /* SettingsTableViewController.swift */,
+				94B045AD2941DF1A0092D740 /* Shapes.swift */,
+				94B045AF2941DF290092D740 /* Cards.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		94B045B12941E0720092D740 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				94B0457B293B85700092D740 /* Main.storyboard */,
+				94B04580293B85710092D740 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		94B045B52941E1670092D740 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				94B045B62941E4A40092D740 /* Card.swift */,
+				94B045B82941E6AC0092D740 /* Game.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		94B045BA29431A220092D740 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				94B045BB29431A420092D740 /* CardViewFactory.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		94B63F3D295479FA0087809C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				94B63F3E29547A280087809C /* TableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +210,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94B0457A293B85700092D740 /* ViewController.swift in Sources */,
+				94B045B72941E4A40092D740 /* Card.swift in Sources */,
+				94B045B92941E6AC0092D740 /* Game.swift in Sources */,
+				94BD36E629470CAD0080AFC5 /* BoardGameController.swift in Sources */,
+				94B63F412954A4F30087809C /* SettingsTableViewController.swift in Sources */,
+				94BD36E9294713420080AFC5 /* LaunchScreenController.swift in Sources */,
+				94B045B02941DF290092D740 /* Cards.swift in Sources */,
 				94B04576293B85700092D740 /* AppDelegate.swift in Sources */,
+				94B63F3F29547A280087809C /* TableViewCell.swift in Sources */,
+				94B045BC29431A420092D740 /* CardViewFactory.swift in Sources */,
 				94B04578293B85700092D740 /* SceneDelegate.swift in Sources */,
+				94B045AE2941DF1A0092D740 /* Shapes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +241,14 @@
 				94B04581293B85710092D740 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		94BD36E7294713420080AFC5 /* LaunchScreenController.swift */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94BD36E8294713420080AFC5 /* Base */,
+			);
+			name = LaunchScreenController.swift;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
